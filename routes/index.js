@@ -4,12 +4,12 @@ exports.default = function(req, res){
 };
 exports.whatIsMyIP = function(req, res){
   res.type('application/json');
-
   var result = {
+    "fulfillmentText": "Your internet address is being reported as " + req.ip.replace("::ffff:",""),
     "source": "myairplane.com",
     "payload": {
     "google": {
-      "expectUserResponse": false,
+      "expectUserResponse": true,
       "richResponse": {
         "items": [
           {
