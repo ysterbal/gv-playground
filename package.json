@@ -12,7 +12,21 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "csurf": "^1.9.0",
+    "errorhandler": "^1.5.0",
+    "favicon": "0.0.2",
+    "helmet": "^3.12.1",
+    "http": "0.0.0",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "request-ip": "^2.0.2",
+    "serve-favicon": "^2.5.0",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
     "request": "^2.81.0",
